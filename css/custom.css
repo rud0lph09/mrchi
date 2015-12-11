@@ -117,7 +117,7 @@ p {
 	}
 
 	.jumbotron{
-		background-size: 100%;
+		background-size: auto;
 		background-repeat: no-repeat;
 	}
 
