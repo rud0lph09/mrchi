@@ -144,6 +144,18 @@ p {
 		padding: 0px 30px;
 	}
 
+	.jumbotron {
+		background-image: url(../images/CDMxM.jpg);
+	}
+
+	.j2{
+		background-image: url(../images/hackM.jpg);
+	}
+
+	#about{
+		background-color: white;
+	}
+
 	#hammer{
 		margin: 20px 20px;
 	}
