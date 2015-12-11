@@ -16,7 +16,7 @@ p {
 	text-align: center;
 	background-image: url(../images/CDMx.jpg);
 	background-size: cover;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	
 }
@@ -105,6 +105,17 @@ p {
 .navbar div {
 	font-family: Poiret One;
 }
+
+@media (max-width: 1200px){
+
+	.jumbotron{
+		background-attachment: fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+}
+
 
 @media (max-width: 991px){
 
