@@ -109,6 +109,7 @@ p {
 @media (max-width: 1200px){
 
 	body{
+		background-size: cover;
 		background-color: black;
 	}
 
@@ -117,7 +118,7 @@ p {
 	}
 
 	.jumbotron{
-		background-size: auto;
+		background-size: 100%;
 		background-repeat: no-repeat;
 	}
 
