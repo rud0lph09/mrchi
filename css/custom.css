@@ -143,7 +143,9 @@ p {
 	.jumbotron p{
 		padding: 0px 30px;
 	}
-
+	body {
+		background-color: black;
+	}
 	.jumbotron {
 		background-image: url(../images/CDMxM.jpg);
 	}
@@ -153,7 +155,6 @@ p {
 	}
 
 	#about{
-		background-color: white;
 		background-image: none;
 	}
 
