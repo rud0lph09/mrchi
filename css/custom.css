@@ -4,6 +4,10 @@ body {
   padding-bottom: 20px;
 }
 
+div {
+	vertical-align: top;
+}
+
 footer {
 	text-align: center;
 }
@@ -31,6 +35,13 @@ p {
 #about {
 	/*padding-top: 60px;*/
 	background-image: none;
+	background-color: #4e5154;
+	margin-bottom: 0px;
+	margin-top: 0px
+}
+
+#topper{
+	margin-bottom: 0px
 }
 
 #hammer{
@@ -49,7 +60,7 @@ p {
 }
 
 .jumbotron div.main-container{
-	background-color:rgba(0,0,0,.85);
+	background-color:rgba(0,0,0,.65);
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
