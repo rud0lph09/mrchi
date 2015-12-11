@@ -108,13 +108,7 @@ p {
 
 @media (max-width: 1200px){
 
-	body{
-		background-color: black;
-	}
-
-	footer{
-		color: white;
-	}
+	
 
 	.jumbotron{
 		background-size: cover;
