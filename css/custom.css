@@ -146,7 +146,8 @@ p {
 
 	.jumbotron {
 		background-image: url(../images/CDMxM.jpg);
-
+		background-attachment: scroll;
+		background-size: auto;
 	}
 
 	.j2{
