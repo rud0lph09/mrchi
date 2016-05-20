@@ -1,135 +1,361 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mariachi.io</title>
     <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-
-    <title>MARIACHI.IO</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Esta fuente es Oswald, Poiret One y Font awesome-->
-    <link href='https://fonts.googleapis.com/css?family=Oswald|Poiret+One' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-    <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="ati.png">
+    <link rel="icon" type="image/png" href="fa32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="fa16.png" sizes="16x16" />
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="css/etline-font.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body id="top">
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-  </head>
-
-  <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".collapse" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">MARIACHI.IO</a>
+    <section class="hero">
+        <section class="navigation">
+            <header>
+                <div class="header-content">
+                    <div class="logo"><a href="#"><img src="img/sedna-logo.png" alt="Sedna logo"></a></div>
+                    <div class="header-nav">
+                        <nav>
+                            <ul class="primary-nav">
+                                <li><a href="#features">Nuestros Servisios</a></li>
+                                <!-- <li><a href="#assets">Assets</a></li> -->
+                                <li><a href="#blog">Nuestra Historia</a></li>
+                                <li><a href="#download">Contacto</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="navicon">
+                        <a class="nav-toggle" href="#"><span></span></a>
+                    </div>
+                </div>
+            </header>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="hero-content text-center">
+                        <h1>Hola</h1>
+                        <p class="intro">Mariachi.io es una Start Up desarrolladora de Tecnología del Siglo XXI.</p>
+                        <a href="#download" class="btn btn-accent btn-large">Learn more</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about">QUIENES SOMOS?</a></li>
-            <li><a href="#hack">EL HACK</a></li>
-            <li><a href="#contact">CONTACTO</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container main-container">
-      <hr>
-        <h1 style="opacity: 1.0;">Hola, mundo!</h1>
-        <p>Mariachi.io es una start up que se dedíca al desarrollo de tecnología. Buscamos crear tecnología que le facilite la vida a las personas. Queremos darle el poder a los emprendedores de crear cualquier cosa que tengan en la mente. Tus propios <strong>expertos</strong> en tecnología.</p>
-        <p><a class="btn btn-success btn-lg" id="hammer" href="#" role="button" style="opacity: 2.0;">Learn more &raquo;</a></p>
-        <hr>
-      </div>
-    </div>
-
-
-    <div class="jumbotron" id="about">
-      <div class="container main-container" >
-      <hr>
-      <!-- Example row of columns -->
-      <h1 style="color: rgba(165,42,42,1);" >EL EQUIPO</h1>
-      <p class="specificP">Mariachi fue fundado por tres amigos de la Facultad de Ingenieria de la UNAM. Han trabajado juntos desde 2014 y viajado a varios concursos internacionales, así como ganado varios en la Ciudad de México.</p>
-      <div class="row specificRow">
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-             <i class="fa fa-user fa-stack-1x fa-inverse"></i>
-          </span>
-          <h2 style="color: rgba(165,42,42,1);">Rodolfo</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="http://twitter.com/rud0lph" target="_blank" role="button">@rud0lph &raquo;</a></p>
+        <div class="down-arrow floating-arrow"><a href="#features"><i class="fa fa-angle-down"></i></a></div>
+    </section>
+    <section class="intro section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 intro-feature">
+                    <div class="intro-icon">
+                        <span data-icon="&#xe033;" class="icon"></span>
+                    </div>
+                    <div class="intro-content" id='intro-Mariachi'>
+                        <h5>A la medida.</h5>
+                        <p>Creamos soluciones de la talla de nuestros clientes. Dandole importancia al objetivo e imagen de los mismos.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 intro-feature">
+                    <div class="intro-icon">
+                        <span data-icon="&#xe030;" class="icon"></span>
+                    </div>
+                    <div class="intro-content">
+                        <h5>Creatividad.</h5>
+                        <p>Contamos con la capacidad de crear proyectos y soluciones tecnológicas para problematicas y mejoras de vida.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 intro-feature">
+                    <div class="intro-icon">
+                        <span data-icon="&#xe046;" class="icon"></span>
+                    </div>
+                    <div class="intro-content last">
+                        <h5>Disrruptiva</h5>
+                        <p>Nuestros proyectos son creados desde 0, tratando de romper con lo común y generar lo extraordinario.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-             <i class="fa fa-user fa-stack-1x fa-inverse"></i>
-          </span>
-          <h2 style="color: rgba(165,42,42,1);">Antonio</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="http://twitter.com/" target="_blank" role="button">@toony &raquo;</a></p>
-       </div>
-       <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-             <i class="fa fa-user fa-stack-1x fa-inverse"></i>
-          </span>
-          <h2 style="color: rgba(165,42,42,1);">José</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="http://twitter.com/" target="_blank" role="button">@chepo &raquo;</a></p>
-       </div>
-      </div>
-
-      <hr>
-    </div>
-    </div>
-     <!-- /container -->
-
-    <div class="jumbotron j2" id="hack">
-        <div class="container main-container">
-        <hr>
-          <h1 style="color: rgba(165,42,42,1);">EL HACK</h1>
-          <iframe class="video-segment" width="840" height="630" src="https://www.youtube.com/embed/Q5xKNaj3fKw" frameborder="0" allowfullscreen></iframe>
-          <hr>
+    </section>
+    <section class="features section-padding" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-7">
+                    <div class="feature-list">
+                        <h3>Llevaremos tus ideas al siguiente nivel.</h3>
+                        <p>Utilizando las tecnologías de desarrollos mas novedosas. Podremos diseñarte una solución justo para tí.</p>
+                        <ul class="features-stack">
+                            <li class="feature-item">
+                                <div class="feature-icon">
+                                    <!-- <span data-icon="&#xe03e;" class="icon"></span> -->
+                                    <span class="icon-mobile icon"></span>
+                                </div>
+                                <div class="feature-content">
+                                    <h5>Dessarrollo Móvil</h5>
+                                    <p>Desarrollo de aplicaciónes, interactivas y escalables para iOS y Android.</p>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon">
+                                    <!-- <span data-icon="&#xe040;" class="icon"></span> -->
+                                    <span  class="icon icon-globe"></span>
+                                </div>
+                                <div class="feature-content">
+                                    <h5>Desarrollo Web</h5>
+                                    <p>Desde increibles páginas web estáticas, hasta asombrosas aplicaciones web, son parte de nuestro repertorio.</p>
+                                </div>
+                            </li>
+                            <li class="feature-item" >
+                                <div class="feature-icon" id="rocketIcon">
+                                    <span  class="fa fa-rocket" ></span>
+                                </div>
+                                <div class="feature-content">
+                                    <h5>Hardware</h5>
+                                    <p>Nos encanta jugar con hardware, ya sea robótica, domótica o electrónica, el desarrollo de hardware esta dentro de nuestro repertorio.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    
+        <div class="device-showcase">
+            <div class="devices">
+                <div class="ipad-wrap wp1"></div>
+                <div class="iphone-wrap wp2"></div>
+            </div>
+        </div>
+        <div class="responsive-feature-img"><img src="img/devices.png" alt="responsive devices"></div>
+    </section>
+    <!-- <section class="features-extra section-padding" id="assets">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="feature-list">
+                        <h3>Designed with Sketch!</h3>
+                        <p>Easily change/switch/swap every placeholder inside every image on Sedna with the included Sketch files. You’ll have this template customised to suit your business in no time! </p>
+                        <p>Nam vehicula malesuada lectus, interdum fringilla nibh. Duis aliquam vitae metus a pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum augue quis augue ornare, eget faucibus felis pharetra. Proin condimentum et leo quis fringilla.
+                        </p>
+                        <a href="#" class="btn btn-ghost btn-accent btn-small">What's Sketch?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="macbook-wrap wp3"></div>
+        <div class="responsive-feature-img"><img src="img/macbook-pro.png" alt="responsive devices"></div>
+    </section> -->
+    <!-- <section class="hero-strip section-padding">
+        <div class="container">
+            <div class="col-md-12 text-center">
+                <h2>
+                Customise Sedna with the included <span class="sketch">Sketch <i class="version">3</i></span> file
+                </h2>
+                <p>Change/swap/edit every aspect of Sedna before you hit development with the included Sketch file.</p>
+                <a href="#" class="btn btn-ghost btn-accent btn-large">Download now!</a>
+                <div class="logo-placeholder floating-logo"><img src="img/sketch-logo.png" alt="Sketch Logo"></div>
+            </div>
+        </div>
+    </section> -->
+    <section class="blog-intro section-padding" id="blog">
+        <div class="container" id="missive"]>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Nuestra Historia</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+                    <h5>El hackathon</h5>
+                    <p>Todo comenzo cuando decidimos entrar a un hackathon <a href="http://mxhacks.mx/" >MxHacks</a>, en el que un grupo de amigos universitarios, de la facultad de Ingeniería de la UNAM, logramos crear una cafetera, controlada a travez de una app, para servir café a tu gusto. El proyecto, llamado <a href="https://www.youtube.com/watch?v=Q5xKNaj3fKw" >Haffee</a>, además de otorgarnos <a href="http://www.proceso.com.mx/392285/estudiantes-de-la-unam-ganan-premio-por-cafetera-controlada-via-internet" >el primer lugar</a>, nos llevo a muchos lugares, llegando a competir en hackatones internacionales como <a href="http://www.engin.umich.edu/college/about/news/stories/2015/january/mhacks-shapes-the-hackathon-culture-it-helped-create" >MHacks</a> y <a href="http://hacktheplanet.mlh.io" >Hack the Planet</a>.</p><!--<a href="#download" >Hack the Planet</a>-->
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+                    <h5>Creando Mariachi.io</h5>
+                    <p>En Noviembre de 2015 decidimos comenzar a trabajar en nuevo concepto, tras algunos otros proyectos, comprendimos que nuestro mayor medio de expresión es crear tecnología y nos dimos a la misión de usar este canal para darle el poder a las personas, crear cosas locas y explorar alternativas a problematicas sociales. Nos dimos cuenta también que hay muchas personas con grandes ideas, pero algunas veces requieren un empuje del lado tecnológico, para comenzar esta nueva aventura. De todo esto nace Mariachi.io, de nuestra necesidad de crear y de el poder ayudar a las personas a volver sueños realidad. Somos Mariachi.io</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <hr>
-
+    <!-- <section class="blog text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <figure>
+                            <a href="img/blog-img-01.jpg" class="single_image">
+                                <div class="blog-img-wrap">
+                                    <div class="overlay">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <img src="img/blog-img-01.jpg" alt="Sedna blog image"/>
+                                </div>
+                            </a>
+                            <figcaption>
+                            <h2><a href="#" class="blog-category" data-toggle="tooltip" data-placement="top" data-original-title="See more posts">Product</a></h2>
+                            <p><a href="#" class="blog-post-title">Getting started with Sedna <i class="fa fa-angle-right"></i></a></p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <figure>
+                            <a href="img/blog-img-02.jpg" class="single_image">
+                                <div class="blog-img-wrap">
+                                    <div class="overlay">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <img src="img/blog-img-02.jpg" alt="Sedna blog image"/>
+                                </div>
+                            </a>
+                            <figcaption>
+                            <h2><a href="#" class="blog-category" data-toggle="tooltip" data-placement="top" data-original-title="See more posts">Technology</a></h2>
+                            <p><a href="#" class="blog-post-title">Why IE8 support is deminishing <i class="fa fa-angle-right"></i></a></p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <figure>
+                            <a href="img/blog-img-03.jpg" class="single_image">
+                                <div class="blog-img-wrap">
+                                    <div class="overlay">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <img src="img/blog-img-03.jpg" class="single_image" alt="Sedna blog image"/>
+                                </div>
+                            </a>
+                            <figcaption>
+                            <h2><a href="#" class="blog-category" data-toggle="tooltip" data-placement="top" data-original-title="See more posts">Product</a></h2>
+                            <p><a href="#" class="blog-post-title">Sedna tutorial: How to begin your <i class="fa fa-angle-right"></i></a></p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+                <a href="#" class="btn btn-ghost btn-accent btn-small">More news</a>
+            </div>
+        </div>
+    </section> -->
+    <section class="testimonial-slider section-padding text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <div class="avatar"><img src="img/rodolfo.jpg" alt="Sedna Testimonial Avatar"></div>
+                                <h2>"Crear cosas nuevas es lo que nos despierta todas las mañanas, es el motor principal de Mariachi.io"</h2>
+                                <p class="author">Rodolfo Castillo, Desarrollo Móvil, Project Lead</p>
+                            </li>
+                            <li>
+                                <div class="avatar"><img src="img/antonio.jpg" alt="Sedna Testimonial Avatar"></div>
+                                <h2>"Nunc vel maximus purus. Nullam ac urna ornare."</h2>
+                                <p class="author">Antonio Santiago, Dessarrollo Web, Budget Lead</p>
+                            </li>
+                            <li>
+                                <div class="avatar"><img src="img/chepo.jpg" alt="Sedna Testimonial Avatar"></div>
+                                <h2>"Lorem ipsum dolor sit amet, nullam lucia nisi."</h2>
+                                <p class="author">Ángel "Chepo" López, Hardware, Hardware Lead</p>
+                            </li>
+                            <li>
+                                <div class="avatar"><img src="img/cesar.jpg" alt="Sedna Testimonial Avatar"></div>
+                                <h2>"Lorem ipsum dolor sit amet, nullam lucia nisi."</h2>
+                                <p class="author">Cesar Islas, Relaciones Publicas, Dirección | CETIEM</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sign-up section-padding text-center" id="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>Hagamos tus sueños realidad</h3>
+                    <p>Introduce tu nombre, correo y nos pondremos en contacto contigo. O envianos un correo a hello@mariachi.io</p>
+                    <form class="signup-form" action="#" method="POST" role="form">
+                        <div class="form-input-group">
+                            <i class="fa fa-user"></i><input type="text" class="" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-input-group">
+                            <i class="fa fa-envelope"></i><input type="text" class="" placeholder="tucorreo@email.com" required>
+                        </div>
+                        <button type="submit" class="btn-fill sign-up-btn">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="to-top">
+        <div class="container">
+            <div class="row">
+                <div class="to-top-wrap">
+                    <a href="#top" class="top"><i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
-        <p>&copy; 2015 Mariachi.io</p>
-      </footer>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="footer-links">
+                        <ul class="footer-group">
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Sign up</a></li>
+                            <li><a href="http://tympanus.net/codrops/licensing/">Licence</a></li>
+                            <li><a href="http://tympanus.net/codrops/">Codrops</a></li>
+                            <li><a href="http://www.peterfinlan.com/">Peter Finlan</a></li>
+                        </ul>
+                        <p>Copyright © 2015 <a href="#">Sedna</a><br>
+                        <a href="http://tympanus.net/codrops/licensing/">Licence</a> | Crafted with <span class="fa fa-heart pulse2"></span> by <a href="http://www.peterfinlan.com/">Peter Finlan</a>.</p>
+                    </div>
+                </div>
+                <div class="social-share">
+                    <p>Share Sedna with your friends</p>
+                    <a href="https://twitter.com/peterfinlan" class="twitter-share"><i class="fa fa-twitter"></i></a> <a href="#" class="facebook-share"><i class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="bower_components/retina.js/dist/retina.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="bower_components/classie/classie.js"></script>
+    <script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+</body>
 </html>
